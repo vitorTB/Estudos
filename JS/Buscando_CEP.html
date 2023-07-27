@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <h1>cosultando endereço</h1>
+    <input type="text" id="cep" name="cep" placeholder="digite apenas numeros" />
+    <button onclick="buscarCEP()">Buscar CEP!</button>
+    <h2>Resposta</h2>
+    <p id="Resultad">
+    </p>
+
+
+<script>
+function buscarCEP(){
+console.log("esta aq");
+    var cep = document.getElementById("cep").value;
+    
+    var xm1HttpRequest = new XMLHttpRequest();
+
+    var url = 'http://cep.la/'+cep;
+    console.log("esta aq");
+
+    xm1HttpRequest.open("GET", url, true);
+    xm1HttpRequest.setRequestHeader("Accept","application/json");
+    console.log("esta a333q");
+
+    xm1HttpRequest.onreadystatechange = function(){
+        console.log("esta aqs");
+
+        if(xm1HttpRequest.readyState == 3){
+            console.log("Carregando Conteudo");
+        }
+        if(xm1HttpRequest.readyState == 4){
+            console.log("CEP:" + xm1HttpRequest.responseText);
+
+            var jsonRespose = JSON.parse(xm1HttpRequest.responseText);
+
+            document.getElementById("Resultad").innerHTML = 'CEP:' + jsonRespose.cep ;
+            console.log(jsonRespose);
+        }
+    }
+   return xm1HttpRequest;
+}
+
+
+
+
+
+</script>
+
+
+
+
+</body>
+</html>
