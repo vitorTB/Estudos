@@ -1,0 +1,100 @@
+:root {
+	--vermelho:#E50914;
+	--preta:#141414;
+}
+
+
+/*reset do layout */
+*{ 
+	margin: 0;
+	padding: 0;	
+	box-sizing: border-box;
+ }
+/*CORPO*/
+ body{
+ 	background:var(--preta);
+ 	font-family: 'Times New Roman', Times, serif;
+ 	color:white;
+
+ }
+
+ header .logo{
+ 	color:var(--vermelho);
+ 	font-family: 'Bebas Neue', cursive;
+ 	font-size: 40px;
+ 	letter-spacing:5px;
+ }
+header nav a{
+	text-decoration: none;
+	color:#AAA;
+	margin-right: 10px;
+	font-family: Arial; 
+}
+header nav a:hover{/*AO PASSA o mouse muda de cor*/
+
+	color:red;
+}
+header .container{
+	display: flex; /*TRATA COMO LINHA por default*/
+	flex-direction: row;
+	align-items: center;/*ALINHA AO CENTRO*/
+	justify-content: space-between; /*MUDA O ESPAÇAMENTO*/
+}
+/*FILME PRINCIPAL*/
+
+main .filme-principal{
+	font-size: 20px;
+	background:linear-gradient(rgba(0,0,0,.00),rgba(0,0,0,.50)100%),url('/img/capaB99.jpg');
+	height: 400px;
+	background-size: cover;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:  flex-start;
+
+	}
+.filme-principal .descricao{
+	margin-top: 5%;
+	margin-bottom: 50px;
+	font-size: 24px;
+}
+.filme-principal .titulo{
+	font-family: 'Felix titling';
+	font-size: 50px;
+	font-weight: bold;
+}
+.botao{
+	background-color: rgba(0,0,0,.60);
+	border: none;
+	color:white;
+	font-size: 12px;
+	padding: 15px 25px;
+	font-family: Lucida Console;
+	margin-right: 15px;
+	cursor: pointer;
+}
+
+.botao:hover{
+	background-color:white;
+	color:black;
+}
+
+}
+.botao i{
+	margin-right: 8px;
+}
+.container{
+	margin-left: 25px;
+}
+.filme-principal .container{
+	width: 60%;
+}
+.box-filme{
+	height: 50%;
+	width: 50%;
+	display: block;
+}
+.link01{
+	text-decoration: none;
+}

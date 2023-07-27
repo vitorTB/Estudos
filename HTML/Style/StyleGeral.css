@@ -1,0 +1,23 @@
+/* [checked] - seleciona todos os elementos que possuem o atributo checked. */
+/* [type=’text’] - seleciona todos os elementos do tipo text. */
+
+.cabeca{
+    background-color: rgba(0, 0, 0, 0.116);
+}
+.main{
+    height: 600px;
+}
+.principal_coluna{
+background-color: blue;
+}
+.navega_coluna{
+background-color: yellow;
+height: 100px;
+}
+.pesquisa_coluna{
+    background-color: green;
+}
+.btn-group{
+    margin-top: 2%;
+    margin-left: 10%;
+}

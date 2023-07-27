@@ -1,0 +1,11 @@
+/* CSS Pratica de formulario */
+/* hover faz com que quando passado o mouse em cima do elemento este elemento faz o atributo inserido. */
+
+
+
+legend:hover{ 
+    color: red;
+}
+h1:hover{
+    background-color: aqua;
+}
