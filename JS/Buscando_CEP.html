@@ -26,7 +26,7 @@ console.log("esta aq");
     console.log("esta aq");
 
     xm1HttpRequest.open("GET", url, true);
-    xm1HttpRequest.setRequestHeader("Accept","application/json");
+    xm1HttpRequest.setRequestHeader("Accept", "application/json");
     console.log("esta a333q");
 
     xm1HttpRequest.onreadystatechange = function(){
@@ -36,15 +36,15 @@ console.log("esta aq");
             console.log("Carregando Conteudo");
         }
         if(xm1HttpRequest.readyState == 4){
-            console.log("CEP:" + xm1HttpRequest.responseText);
+            // console.log("CEP:" + xm1HttpRequest.responseText);
 
             var jsonRespose = JSON.parse(xm1HttpRequest.responseText);
 
-            document.getElementById("Resultad").innerHTML = 'CEP:' + jsonRespose.cep ;
-            console.log(jsonRespose);
+            document.getElementById("Resultad").innerHTML = 'CEP: ' + jsonRespose.cep ;
+            
         }
-    }
-   return xm1HttpRequest;
+    };
+   xm1HttpRequest.send(null);
 }
 
 
