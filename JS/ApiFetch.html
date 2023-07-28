@@ -17,6 +17,7 @@
 		function carregarImagens(){
                   
 			var url = "https://dog.ceo/api/breeds/image/random" 
+			
 			fetch(url, { method: 'get' })
 			.then(function(response) { 
 				response.json().then(function(data){

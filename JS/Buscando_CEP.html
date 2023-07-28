@@ -8,39 +8,43 @@
 </head>
 <body>
     <h1>cosultando endereço</h1>
+   <!-- Criando um inpuit para colocar o CEP com a ID=CEP -->
     <input type="text" id="cep" name="cep" placeholder="digite apenas numeros" />
+    <!-- Criando botão que ira exectar função Buscar cep, com API CEP.LA -->
     <button onclick="buscarCEP()">Buscar CEP!</button>
+<!-- Para mostar o resultado, USANDO ID RESULT na função -->
     <h2>Resposta</h2>
     <p id="Resultad">
     </p>
 
 
 <script>
+    // Função de buscar 
 function buscarCEP(){
-console.log("esta aq");
+    // iniciando a varial CEP que pega o elemento do ID "cep" que está no input usando .value para pegar o valor " conteudo contido na ID"
+
     var cep = document.getElementById("cep").value;
-    
+    // Iniciando o OBJ XMLHttpRequest()
+
     var xm1HttpRequest = new XMLHttpRequest();
-
+    // Usando uma varial para "adicionar" o cep digitado no final do link, para que funcione API
     var url = 'http://cep.la/'+cep;
-    console.log("esta aq");
-
+//Iniciando API Usando GET,URL ( variavel a cima que adiciona o CEP digitado, + true que identifica que é requisação certa)
     xm1HttpRequest.open("GET", url, true);
+    //iniciando API com o comando fornecido na documentação.
     xm1HttpRequest.setRequestHeader("Accept", "application/json");
-    console.log("esta a333q");
-
+    //Fazendo a solicitação do status da api, se esta carregando ou se carregou.
     xm1HttpRequest.onreadystatechange = function(){
-        console.log("esta aqs");
-
+    //Verifica se esta carregando. ESTAGIO 3  
         if(xm1HttpRequest.readyState == 3){
             console.log("Carregando Conteudo");
         }
+        //Verifica se carregou
         if(xm1HttpRequest.readyState == 4){
-            // console.log("CEP:" + xm1HttpRequest.responseText);
-
+                //Usando JSON.PARSE para pegar a resposta da api que esta no xm1HttpRequest e passando para JSONRESPOSE
             var jsonRespose = JSON.parse(xm1HttpRequest.responseText);
-
-            document.getElementById("Resultad").innerHTML = 'CEP: ' + jsonRespose.cep ;
+            //Colocando no docmento P que tem a ID RESULTAD a forma que irar mostar as solicitações, colocando jsonRespose.CEP || .bairro || UF || 
+            document.getElementById("Resultad").innerHTML = 'CEP: ' + jsonRespose.cep + "</br>" + "Bairro: " + jsonRespose.bairro + "</br>" + "UF: " + jsonRespose.uf + "</br>" + "logradouro: " + jsonRespose.logradouro;
             
         }
     };
