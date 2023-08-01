@@ -1,0 +1,10 @@
+#formu{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#formu .sub{
+    margin-top: 15px;
+    font-weight: 700;
+}
