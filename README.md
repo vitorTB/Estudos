@@ -1,10 +1,17 @@
-# MEUS PROJETOS DE ESTUDO :computer:
+# MEUS PROJETOS DE ESTUDOS :computer:
 
-Olá me chamo Vitor Toldato. 
-👨‍🎓Estou fazendo primeiro semetre de  ANALISE E DESENVOLVIMENTO DE SISTEMAS.
-📚Esse repositorio é deticado ao meu progressos nos estudos durante a faculdade.
-@Python  @JS  @HTML  @CSS  @BD
+## Olá, meu nome é Vitor Toldato.  
+## 👨‍🎓Estou cursando Análise e Desenvolvimento de Sistemas.
+Semestre: 01/05;
 
+### 📚Este repositório é dedicado ao meu progresso nos estudos durante a faculdade.
+- Python
+- JS
+- HTML
+- CSS
+- BD
 
-#Resumo:
-Atualmente, concentro meus esforços no aprimoramento dos meus estudos, buscando enriquecer meu nível técnico. Essa dedicação é complementar à minha posição diurna como suporte N3 na empresa Wyntech.  Minha vontade de sempre melhorar nos estudos e no trabalho e mostra o quanto estou comprometido em crescer e aprender de forma constante.
+# Resumo:  
+Atualmente, concentro meus esforços no aprimoramento dos meus estudos, buscando enriquecer meu nível técnico.  
+Minha atuação como suporte N3 tem me auxiliado significativamente a crescer em aspectos técnicos e sociais.  
+Minha constante vontade de me aprimorar nos estudos e no trabalho demonstra meu comprometimento em crescer e aprender de maneira contínua.
