@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abertura de Chamado</title>
+    <link rel="stylesheet" href="\css\Abertura.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Abertura de Chamado</h1>
+        <form id="ticketForm">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="tipo-erro">Tipo de Erro:</label>
+            <select id="tipo-erro" name="tipo-erro" required>
+                <option value="">Selecione...</option>
+                <option value="Erro no Sistema">Erro no Sistema</option>
+                <option value="Problema de Rede">Problema de Rede</option>
+                <option value="Dificuldade de Acesso">Dificuldade de Acesso</option>
+                <option value="Outro">Outro</option>
+            </select>
+
+            <label for="descricao">Descrição:</label>
+            <textarea id="descricao" name="descricao" required></textarea>
+
+            <button type="submit">Enviar Chamado</button>
+            <button type="reset">resetar</button>
+        </form>
+        <div id="confirmationMessage"></div>
+        <div id="botaoRetorno"></div>
+    </div>
+    <script>
+        document.getElementById('ticketForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            // Get form data
+            const nome = document.getElementById('nome').value;
+            const tipoErro = document.getElementById('tipo-erro').value;
+            const descricao = document.getElementById('descricao').value;
+
+            //
+            let ticketCounter= JSON.parse(localStorage.getItem('ticketCounter')) || 0;
+
+            ticketCounter++;
+           
+            // Crio o objeto do ticket
+            const ticket = {
+                id: ticketCounter,
+                nome: nome,
+                tipoErro: tipoErro,
+                descricao: descricao,
+                dataCriacao: new Date().toISOString().split('T')[0]
+            };
+
+            // recupera os tickets no local.
+            const tickets = JSON.parse(localStorage.getItem('tickets')) || [];
+            
+            // adicionar novo ticket no array
+            tickets.push(ticket);
+            
+            // Salvar os tickets no local
+            localStorage.setItem('tickets', JSON.stringify(tickets));
+            localStorage.setItem('ticketCounter', JSON.stringify(ticketCounter));
+
+            //MENSAGEM DE CONFIRMAÇÃO
+            const confirmationMessage = document.getElementById('confirmationMessage');
+            confirmationMessage.innerHTML = `Ticket enviado com sucesso !<br>Número do ticket: ${ticketCounter}`;
+             confirmationMessage.style.color = 'green'; 
+            
+             const botaoRetorno = document.getElementById('botaoRetorno');
+             botaoRetorno.innerHTML = '<a href="visualizar_tickets.html"><button>visualizar tickets</button> </a>';
+            //Muda a tela para visualização do ticket
+            //window.location.href = 'visualizar_tickets.html';
+        });
+    </script>
+</body>
+</html>
