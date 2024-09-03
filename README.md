@@ -2,7 +2,7 @@
 
 ## Olá, meu nome é Vitor Toldato.  
 ## 👨‍🎓Estou cursando Análise e Desenvolvimento de Sistemas.
-Semestre: 01/05;
+Semestre: 03/05;
 
 ### 📚Este repositório é dedicado ao meu progresso nos estudos durante a faculdade.
 - Python
@@ -10,8 +10,10 @@ Semestre: 01/05;
 - HTML
 - CSS
 - BD
+- PHP
 
 # Resumo:  
-Atualmente, concentro meus esforços no aprimoramento dos meus estudos, buscando enriquecer meu nível técnico.  
-Minha atuação como suporte N3 tem me auxiliado significativamente a crescer em aspectos técnicos e sociais.  
-Minha constante vontade de me aprimorar nos estudos e no trabalho demonstra meu comprometimento em crescer e aprender de maneira contínua.
+Atualmente estudo e trabalho.
+Trabalhando em duas Startup "TAMANDU E GABINETT"
+Na Tamandu estou atuando mais como "Consultor de sistemas"
+Na Gabinett estou atuando como "Suporte e DEV"
