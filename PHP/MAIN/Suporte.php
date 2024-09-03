@@ -8,9 +8,9 @@
 </head>
 <body>
     <div class="container">
-    <h1>Escolha:</h1>
-    <a href="Abertura_Ticket.html"><button >Abrir ticket</button></a>
-    <a href="visualizar_tickets.html"><button >Visualizar ticket</button></a>
-</div>
+        <h1>Escolha:</h1>
+        <a href="Abertura_Ticket.php"><button>Abrir ticket</button></a>
+        <a href="visualizar_tickets.php"><button>Visualizar ticket</button></a>
+    </div>
 </body>
 </html>
