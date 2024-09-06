@@ -107,7 +107,31 @@
                 <div class="modulo azul">
                 <h3>Modulo 05 - ARRAY</h3>
                     <ul>
-                        <li><a href="exercicios.php?dir=Array&file=">Exercicio 01 - Array</a></li>
+                        <li><a href="exercicios.php?dir=Array&file=Array">Exercicio 01 - Array</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicios.php?dir=Array&file=Mapa">Exercicio 02 - Mapa</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicios.php?dir=Array&file=Desafio_Meses">Desafio - Meses</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicios.php?dir=Array&file=Operacoes">Exercicio 03 - Operacoes</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicios.php?dir=Array&file=Sorteio">Exercicio 03 - Sorteio</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicios.php?dir=Array&file=Mult">Exercicio 04 - Multidimensional</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicios.php?dir=Array&file=Array_Constantes">Exercicio 05 - Array Constante</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicios.php?dir=Array&file=Get">Exercicio 06 - Get</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicios.php?dir=Array&file=Post">Exercicio 07 - Post</a></li>
                     </ul>
                 </div>
                 <div class="modulo preto">
