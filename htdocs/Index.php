@@ -133,11 +133,56 @@
                     <ul>
                         <li><a href="exercicios.php?dir=Array&file=Post">Exercicio 07 - Post</a></li>
                     </ul>
+                    <ul>
+                        <li><a href="exercicios.php?dir=Array&file=Comparacao">Exercicio 08 - Comparação</a></li>
+                    </ul>
                 </div>
+                <div class="modulo rosa">
+                <h3>MODULO 06 - REPETIÇÕES</h3>
+                    <ul>
+                        <li><a href="exercicios.php?dir=Repeticoes&file=For">Exercicio 01 - FOR</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicios.php?dir=Repeticoes&file=desafio_for">Desafio 01 - FOR</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicios.php?dir=Repeticoes&file=Foreach">Exercicio 02 - FOREACH</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicios.php?dir=Repeticoes&file=Desafio_foreach">Desafio 02 - FOREACH</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicios.php?dir=Repeticoes&file=While">Exercicio 03 - While</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicios.php?dir=Repeticoes&file=Desafio_tabela">Desafio 03 - Tabela</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicios.php?dir=Repeticoes&file=Desafio_tabela2">Desafio 04 - Tabela#2</a></li>
+                    </ul>
+                    
+                
+                </div>
+                <div class="modulo rozito">
+                <h3>MODULO - 07 FUNÇÕES</h3>
+                    <ul>
+                        <li><a href="exercicios.php?dir=Funções&file=Escopo">Exercicio 01 - Funções</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicios.php?dir=Funções&file=Argumentos">Exercicio 02 - Argumentos</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicios.php?dir=Funções&file=ArgumentosPadroes">Exercicio 03 - ArgumentosPadroes</a></li>
+                    </ul>
+                </div>
+        
                 <div class="modulo preto">
                 <h3>CONHECIMENTOS, ALEATORIOS &#128128</h3>
                     <ul>
-                        <li><a href="exercicios.php?dir=Testando&file=ValidadorCNPJ">Exercicio 01 - CNPJ</a></li>
+                        <li><a href="exercicios.php?dir=Testando\Validador_cnpj&file=ValidadorCNPJ">Exercicio 01 - CNPJ</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="\Testando\Testando.php">Testando - Login</a></li>
                     </ul>
                 </div>
                 

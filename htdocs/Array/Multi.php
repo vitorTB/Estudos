@@ -22,6 +22,8 @@ $dados [] = [
     "naturalidade"=>"Pernambuco"
 ];
 print_r($dados);
+
+
 $dados[2]["vizinhos"] = "Novo";
 print_r($dados[2]);
 //UNSET Não ira fazer com que o array fique ordenado apenas exclui o dados[1]. 

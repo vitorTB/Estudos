@@ -120,6 +120,16 @@ body{
 .modulo.roxo{ border: 2px solid rebeccapurple ;}
 .modulo.roxo > h3{ background-color: rebeccapurple ;}
 
+.modulo.rosa{ border: 2px solid rgb(236, 10, 198) ;}
+.modulo.rosa > h3{ background-color:  rgb(236, 10, 198) ;}
+
+.modulo.rozito{ border: 2px solid rgb(219, 12, 81) ;}
+.modulo.rozito > h3{ background-color:  rgb(219, 12, 81) ;}
+
+
+
+
+
 p.divissao{
     margin-bottom: 0px;
     font-weight: bold;
