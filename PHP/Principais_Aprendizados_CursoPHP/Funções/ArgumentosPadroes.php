@@ -1,4 +1,4 @@
-<div class="titulo">Argumento padroes  </div>
+<div class="titulo">Argumento padrão </div>
 
 <?php
 
@@ -9,3 +9,8 @@ function menu($comida, $bebida = "agua"){
 
 
 echo menu('',"Arroz");
+
+
+function anotarpedido02(){
+    
+}

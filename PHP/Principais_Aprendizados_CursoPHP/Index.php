@@ -174,6 +174,12 @@
                     <ul>
                         <li><a href="exercicios.php?dir=Funções&file=ArgumentosPadroes">Exercicio 03 - ArgumentosPadroes</a></li>
                     </ul>
+                    <ul>
+                        <li><a href="exercicios.php?dir=Funções&file=UsandoTipos">Exercicio 04 - Usando tipos</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicios.php?dir=Funções&file=ClosureCallable">Exercicio 05 - ClosureCallable</a></li>
+                    </ul>
                 </div>
         
                 <div class="modulo preto">
@@ -182,10 +188,12 @@
                         <li><a href="exercicios.php?dir=Testando\Validador_cnpj&file=ValidadorCNPJ">Exercicio 01 - CNPJ</a></li>
                     </ul>
                     <ul>
-                        <li><a href="\Testando\Testando.php">Testando - Login</a></li>
+                        <li><a href="Fillow\xhtml\index.html">FILLO</a></li>
                     </ul>
-                </div>
-                
+                <ul>
+                    <li><a href="warframe.market\index.html">Testando - Wf</a></li>
+                </ul>
+               </div>  
             </nav>
         </div>
     </main>
