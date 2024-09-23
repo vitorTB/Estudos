@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="Assets\CSS\Estilo.css">
     <title>Curso PHP</title>
 </head>
+
 <body>
     <header class="cabecalho">
         <h1>Curso PHP</h1>
@@ -36,7 +38,7 @@
                     </ul>
                 </div>
                 <div class="modulo vermelho">
-                <h3>Modulo 02 - TIPO BASICO</h3>
+                    <h3>Modulo 02 - TIPO BASICO</h3>
                     <ul>
                         <li><a href="exercicios.php?dir=tiposbasico&file=tipoInteiro">Exercicio 01 - Inteiros</a></li>
                     </ul>
@@ -54,7 +56,7 @@
                     </ul>
                 </div>
                 <div class="modulo roxo">
-                <h3>Modulo 03 - VARIAVEIS</h3>
+                    <h3>Modulo 03 - VARIAVEIS</h3>
                     <ul>
                         <li><a href="exercicios.php?dir=variaveis&file=basico">Exercicio 01 - Variaveis</a></li>
                     </ul>
@@ -81,7 +83,7 @@
                     </ul>
                 </div>
                 <div class="modulo amarelo">
-                <h3>Modulo 04 - CONTROLE</h3>
+                    <h3>Modulo 04 - CONTROLE</h3>
                     <ul>
                         <li><a href="exercicios.php?dir=Controle&file=If_else">Exercicio 01 - IF & ELSE</a></li>
                     </ul>
@@ -105,7 +107,7 @@
                     </ul>
                 </div>
                 <div class="modulo azul">
-                <h3>Modulo 05 - ARRAY</h3>
+                    <h3>Modulo 05 - ARRAY</h3>
                     <ul>
                         <li><a href="exercicios.php?dir=Array&file=Array">Exercicio 01 - Array</a></li>
                     </ul>
@@ -138,7 +140,7 @@
                     </ul>
                 </div>
                 <div class="modulo rosa">
-                <h3>MODULO 06 - REPETIÇÕES</h3>
+                    <h3>MODULO 06 - REPETIÇÕES</h3>
                     <ul>
                         <li><a href="exercicios.php?dir=Repeticoes&file=For">Exercicio 01 - FOR</a></li>
                     </ul>
@@ -160,11 +162,11 @@
                     <ul>
                         <li><a href="exercicios.php?dir=Repeticoes&file=Desafio_tabela2">Desafio 04 - Tabela#2</a></li>
                     </ul>
-                    
-                
+
+
                 </div>
                 <div class="modulo rozito">
-                <h3>MODULO - 07 FUNÇÕES</h3>
+                    <h3>MODULO - 07 FUNÇÕES</h3>
                     <ul>
                         <li><a href="exercicios.php?dir=Funções&file=Escopo">Exercicio 01 - Funções</a></li>
                     </ul>
@@ -180,20 +182,32 @@
                     <ul>
                         <li><a href="exercicios.php?dir=Funções&file=ClosureCallable">Exercicio 05 - ClosureCallable</a></li>
                     </ul>
+                    <ul>
+                        <li><a href="exercicios.php?dir=Funções&file=Mapa_filter">Exercicio 06 - POO</a></li>
+                    </ul>
                 </div>
-        
                 <div class="modulo preto">
-                <h3>CONHECIMENTOS, ALEATORIOS &#128128</h3>
+                    <h3>MODULO - 08 PARADIGMAS DE ORIENTAÇÃO A OBJETOS</h3>
+                    <ul>
+                        <li><a href="exercicios.php?dir=OrientacaoObjeto&file=Classe">Exercicio 01 - Classe</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicios.php?dir=OrientacaoObjeto&file=ContrutorEdestrutor">Exercicio 02 - Contrutor & destrutor</a></li>
+                    </ul>
+                </div>
+
+                <div class="modulo preto">
+                    <h3>CONHECIMENTOS, ALEATORIOS &#128128</h3>
                     <ul>
                         <li><a href="exercicios.php?dir=Testando\Validador_cnpj&file=ValidadorCNPJ">Exercicio 01 - CNPJ</a></li>
                     </ul>
                     <ul>
                         <li><a href="Fillow\xhtml\index.html">FILLO</a></li>
                     </ul>
-                <ul>
-                    <li><a href="warframe.market\index.html">Testando - Wf</a></li>
-                </ul>
-               </div>  
+                    <ul>
+                        <li><a href="warframe.market\index.html">Testando - Wf</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </main>
@@ -201,4 +215,5 @@
         Vitor Toldato @ <?= date('Y'); ?>
     </footer>
 </body>
+
 </html>
