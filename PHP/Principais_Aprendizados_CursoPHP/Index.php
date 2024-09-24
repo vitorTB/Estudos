@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -189,10 +189,19 @@
                 <div class="modulo preto">
                     <h3>MODULO - 08 PARADIGMAS DE ORIENTAÇÃO A OBJETOS</h3>
                     <ul>
+                        <li><a href="exercicios.php?dir=OrientacaoObjeto&file=Texto_explicativo">Texto_explicativo</a></li>
+                    </ul>
+                    <ul>
                         <li><a href="exercicios.php?dir=OrientacaoObjeto&file=Classe">Exercicio 01 - Classe</a></li>
                     </ul>
                     <ul>
                         <li><a href="exercicios.php?dir=OrientacaoObjeto&file=ContrutorEdestrutor">Exercicio 02 - Contrutor & destrutor</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicios.php?dir=OrientacaoObjeto&file=Heranca">Exercicio 03 - Heranca</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicios.php?dir=OrientacaoObjeto&file=Visibilidade">Exercicio 04 - Visibilidade</a></li>
                     </ul>
                 </div>
 
