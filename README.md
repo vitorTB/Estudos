@@ -12,8 +12,4 @@ Semestre: 03/05;
 - BD
 - PHP
 
-# Resumo:  
-Atualmente estudo e trabalho.
-Trabalhando em duas Startup "TAMANDU E GABINETT"
-Na Tamandu estou atuando mais como "Consultor de sistemas"
-Na Gabinett estou atuando como "Suporte e DEV"
+# TESTE DE MANUTENÇÃO
